@@ -1,11 +1,4 @@
 
-:root{
-    --space-xs: 1rem;
-    --space-s: 2rem;
-
-    --news-bg: #E2C8A5;
-}
-
 * {
     font-family: "Montserrat";
 }
@@ -52,7 +45,7 @@
 
 .headline__side-text{
     text-align: center;
-    
+    font-size: 0.7rem
 }
 
 .headline__side-block{
