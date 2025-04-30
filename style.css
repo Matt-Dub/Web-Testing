@@ -88,6 +88,7 @@
 #newsletter{
     background-color: var(--news-bg);
     border-top: 2px solid black;
+    max-width: 1366px;
 }
 
 .details__wrapper p, .headline__side-block p{
