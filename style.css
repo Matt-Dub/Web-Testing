@@ -40,25 +40,32 @@
     cursor: pointer;
 }
 
-.headline__wrapper{
-    display: grid;
-    grid-template-columns: 1fr 4fr 1fr;
+/* NEWSPAPER */
+.headline__wrapper, .details__wrapper{
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    border-top: 2px solid black;
+    justify-content: space-between;
+    padding: 0 var(--space-xs);
     border-bottom: 2px solid black;
 }
 
 .headline__side-text{
     text-align: center;
+    
 }
 
-.headline__side-block, .headline__title-block{
+.headline__side-block{
     padding: 1rem;
     display:flex;
     justify-content: center;
     align-items: center;
-    /*border:1px solid red;*/
+    width: 15%;
+}
+
+.headline__title-block{
+    display:flex;
+    justify-content: center;
 }
 
 #newsletter *{
@@ -68,11 +75,13 @@
 }
 
 #headline__title-h1{
-    font-size: 3rem;
+    font-size: 5rem;
+    text-align: center;
     font-family: "UnifrakturCook", cursive;
 }
 
 #newsletter{
     background-color: var(--news-bg);
+    border-top: 2px solid black;
 }
 
