@@ -63,16 +63,21 @@
     width: 15%;
 }
 
+.headline__side-block p{
+    font-family: "Cinzel Decorative", serif;
+}
+
 .headline__title-block{
     display:flex;
     justify-content: center;
 }
-
+/*
 #newsletter *{
     font-family: "Cinzel Decorative", serif;
-    /**/
+
     font-weight: 500;
 }
+*/
 
 #headline__title-h1{
     font-size: 5rem;
@@ -85,3 +90,41 @@
     border-top: 2px solid black;
 }
 
+.details__wrapper p, .headline__side-block p{
+    font-family: "Cinzel Decorative", serif;
+}
+
+/*ARTICLES*/
+
+.articles__grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+
+.article__headline{
+    font-family: "Cinzel Decorative", serif;
+}
+
+.article__block{
+    display:flex;
+    flex-direction: column;
+    padding: var(--space-xs);
+}
+
+.article__block p{
+    font-family: "Cormorant Upright", serif;
+}
+
+.article__headline-wrapper{
+    display:flex;
+    flex-direction: column;
+    column-gap: 0;
+}
+
+.article__headline-wrapper h2{
+    font-size: 1.2rem;
+}
+
+.article__image{
+    float: left;
+}
