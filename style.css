@@ -1,0 +1,13 @@
+:root{
+    --space-s: 2em;
+}
+
+* {
+    font-family: "Montserrat";
+}
+
+.page-heading__wrapper{
+    display: flex;
+    justify-content:center;
+    padding: var(--space-s) 0;
+}
