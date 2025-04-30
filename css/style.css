@@ -128,8 +128,15 @@
     font-size: 1.2rem;
 }
 
+.article__body-wrapper{
+    padding-top: var(--space-xs);
+}
+
 .article__image{
     float: left;
+    height:256px;
+    margin-right: var(--space-s);
+    margin-bottom: var(--space-s);
 }
 
 .dawn {
