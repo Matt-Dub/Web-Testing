@@ -1,19 +1,19 @@
 :root{
-  --space-xs : clamp(1.00rem, calc(1.00rem + 0.0020 * (100vw - 380px)), 1.20rem),
   --space-xs : clamp(1.00rem, calc(1.00rem + 0.0020 * (100vw - 380px)), 1.20rem);
-  --space-s : clamp(1.40rem, calc(1.40rem + 0.0020 * (100vw - 380px)), 1.60rem),
+  --space-xs : clamp(1.00rem, calc(1.00rem + 0.0020 * (100vw - 380px)), 1.20rem);
   --space-s : clamp(1.40rem, calc(1.40rem + 0.0020 * (100vw - 380px)), 1.60rem);
-  --space-m : clamp(1.80rem, calc(1.80rem + 0.0061 * (100vw - 380px)), 2.40rem),
+  --space-s : clamp(1.40rem, calc(1.40rem + 0.0020 * (100vw - 380px)), 1.60rem);
   --space-m : clamp(1.80rem, calc(1.80rem + 0.0061 * (100vw - 380px)), 2.40rem);
-  --space-l : clamp(2.80rem, calc(2.80rem + 0.0041 * (100vw - 380px)), 3.20rem),
+  --space-m : clamp(1.80rem, calc(1.80rem + 0.0061 * (100vw - 380px)), 2.40rem);
   --space-l : clamp(2.80rem, calc(2.80rem + 0.0041 * (100vw - 380px)), 3.20rem);
-  --space-xl : clamp(4.20rem, calc(4.20rem + 0.0061 * (100vw - 380px)), 4.80rem),
+  --space-l : clamp(2.80rem, calc(2.80rem + 0.0041 * (100vw - 380px)), 3.20rem);
   --space-xl : clamp(4.20rem, calc(4.20rem + 0.0061 * (100vw - 380px)), 4.80rem);
-  --space-xxl : clamp(5.80rem, calc(5.80rem + 0.0061 * (100vw - 380px)), 6.40rem),
+  --space-xl : clamp(4.20rem, calc(4.20rem + 0.0061 * (100vw - 380px)), 4.80rem);
   --space-xxl : clamp(5.80rem, calc(5.80rem + 0.0061 * (100vw - 380px)), 6.40rem);
-  --space-section : clamp(10.00rem, calc(10.00rem + 0.0203 * (100vw - 380px)), 12.00rem),
+  --space-xxl : clamp(5.80rem, calc(5.80rem + 0.0061 * (100vw - 380px)), 6.40rem);
   --space-section : clamp(10.00rem, calc(10.00rem + 0.0203 * (100vw - 380px)), 12.00rem);
-  --logo-width : clamp(12.00rem, calc(12.00rem + 0.0811 * (100vw - 380px)), 20.00rem),
+  --space-section : clamp(10.00rem, calc(10.00rem + 0.0203 * (100vw - 380px)), 12.00rem);
+  --logo-width : clamp(12.00rem, calc(12.00rem + 0.0811 * (100vw - 380px)), 20.00rem);
   --logo-width : clamp(12.00rem, calc(12.00rem + 0.0811 * (100vw - 380px)), 20.00rem);
   --h1 : clamp(4.50rem, calc(4.50rem + 0.0294 * (100vw - 380px)), 7.40rem);
   --h1 : clamp(4.50rem, calc(4.50rem + 0.0294 * (100vw - 380px)), 7.40rem);
@@ -203,5 +203,5 @@
   --grid-3-4 : minmax(0, 3fr) minmax(0, 4fr);
   --grid-4-1 : minmax(0, 4fr) minmax(0, 1fr);
   --grid-4-2 : minmax(0, 4fr) minmax(0, 2fr);
-  --grid-4-3 : minmax(0, 4fr) minmax(0, 3fr;
+  --grid-4-3 : minmax(0, 4fr) minmax(0, 3fr);
 }
