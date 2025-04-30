@@ -1,5 +1,5 @@
 :root{
-  --space-xs : clamp(1.00rem, calc(1.00rem + 0.0020 * (100vw - 380px)), 1.20rem);
+  --space-xxs : clamp(1.00rem, calc(1.00rem + 0.0020 * (100vw - 380px)), 1.20rem);
   --space-xs : clamp(1.00rem, calc(1.00rem + 0.0020 * (100vw - 380px)), 1.20rem);
   --space-s : clamp(1.40rem, calc(1.40rem + 0.0020 * (100vw - 380px)), 1.60rem);
   --space-s : clamp(1.40rem, calc(1.40rem + 0.0020 * (100vw - 380px)), 1.60rem);
