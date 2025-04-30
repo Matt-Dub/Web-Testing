@@ -8,7 +8,7 @@ function setMidWorldTheme() {
     const month = new Date().getMonth();
     const year = new Date().getFullYear();
     const detailsWrapper = document.getElementById(".details__wrapper");
-    const dateWrapper = document.querySelector(".details__main-block").firstChild();
+    const dateWrapper = document.querySelector("#date");
   
     if (hour >= 5 && hour < 12) {
       detailsWrapper.className = ".dawn";
