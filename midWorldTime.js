@@ -8,7 +8,7 @@ const midWorldMonths = [
 
 function setMidWorldTheme() {
     const hour = new Date().getHours();
-    const day = new Date().getDay();
+    const day = new Date().getDate();
     const month = new Date().getMonth();
     const year = new Date().getFullYear()-1472;
     const detailsWrapper = document.getElementById(".details__wrapper");
